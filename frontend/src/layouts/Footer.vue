@@ -7,9 +7,9 @@
 				</v-card-text>
 
 				<v-card-text text-align="center" class="black--text pt-0">
-					상호 : ooo  |  대표 : ooo  |  사업자등록번호: 111-11-11111<br>
-					주소 : 서울특별시 서초구 서초대로 411, 5층(서초동, GT타워) (우 : 06615)<br>
-					팩스 : 02-568-4908  | 통신판매업 신고번호 : 제2020-서울서초-0852호<br>
+					상호 : 내방  |  대표 : 1조  |  사업자등록번호: 111-11-11111<br>
+					주소 : 서울특별시 서초구 서초대로 411, 5층(서초동, GT타워) (우 : 00000)<br>
+					팩스 : 02-123-4567  | 통신판매업 신고번호 : 0000-서울서초-0000<br>
 					서비스 이용문의 : 5959-2222  |  이메일 : 1111111  |  서비스제휴문의 : partnership@zigbang.com
 				</v-card-text>
 
@@ -21,7 +21,7 @@
 					</v-btn>
 				</v-card-text>
 				<v-card-text class="black--text">
-					<strong>Copyright © 대충회사이름. All Rights Reserved.</strong>
+					<strong>Copyright © MyBang. All Rights Reserved.</strong>
 				</v-card-text>
 			</v-card>
 		</footer>

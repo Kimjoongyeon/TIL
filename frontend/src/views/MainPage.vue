@@ -1,8 +1,6 @@
 <template>
 	<div>
 		<Header />
-		<div :style="{'background-image ':require('@/assets/img/nissan_maxima.png'),}">
-		</div>
 		<div id=background-box  :style="{backgroundImage: 'url('+item+')'}">
 			<div id=main-text>어떤 집을 찾고 있나요?</div>
 			<div id=tabHouse>
@@ -11,6 +9,7 @@
 					<v-tab>빌라, 투룸+</v-tab>
 					<v-tab>원룸</v-tab>
 					<v-tab>오피스텔</v-tab>
+					<v-tab>셰어하우스</v-tab>
 				</v-tabs><br>
 				<div id=search>
 					<input type="text" class="form-control" placeholder="검색 키워드를 입력하세요!" flat none>
@@ -21,7 +20,7 @@
 			</div>
 		</div>
 			<!--   소개할게요, 뉴스, 공지사항 영역 시작   -->
-      <div class="board_content">
+    <div class="board_content">
          <article>
             <h2>소개할게요</h2>
             <hr>
@@ -80,7 +79,6 @@ import Footer from '../layouts/Footer'
 export default {
     components: { Header, Footer },
     name: 'MainPage',
-
     data() {
       return {
         item: [
@@ -139,10 +137,10 @@ export default {
 
 		/* Positioning */
 		position: absolute;
-		top: 0px;
+		top: -7px;
 		bottom: 0px;
 		right: 0px;
-		left: 408px;
+		left: 390px;
 		float: none;
 		display: flex;
 		clear: none;
@@ -153,7 +151,7 @@ export default {
 		background: 0% 0%;
 		background-color: #ffffff;
 		height: 174px;
-		width: 508px;
+		width: 484px;
 		font-size: 16px;
 		line-height: 16px;
 		display: block;
@@ -190,7 +188,7 @@ export default {
 
 		/* Box */
 		height: 60px;
-		width: 428px;
+		width: 410px;
 		margin: 0px;
 		padding: 6px 20px 10px 20px;
 

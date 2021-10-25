@@ -30,59 +30,23 @@
 						<span>도시형생활주택/전월세</span>
 					</a>
 				</li>
+				<li>
+					<a href="">
+						<span>셰어하우스</span>
+						<span>함께 사는 주거공간</span>
+					</a>
+				</li>
 			</ul>
 		</div>
+		<div class="right-header">	
+			<v-btn text>
+				로그인 및 회원가입
+			</v-btn>
+			<v-btn text float="left" color="indigo" font-size= "16px" font-weight= "400" >
+				중개사무소 가입
+			</v-btn>
+		</div>
 	</header>
-
-<!--		<header>-->
-<!--			<v-banner>-->
-<!--				<v-toolbar  color="white">-->
-<!--					<div id="logo">-->
-<!--						<a href="main"><img src="src/assets/noimage.jpg"></a>-->
-<!--					</div>-->
-
-<!--					<ul id="house-list">-->
-<!--						&lt;!&ndash;<v-card width="108px" height="43px">&ndash;&gt;-->
-<!--						<a class=navMenu >-->
-<!--                        <span text text-align="left" class="mb-12" color="black" height="26px" width="108px" >-->
-<!--                            아파트<br>-->
-<!--                        <span-small text-align="left">매매/전월세/신축분양</span-small>-->
-<!--                        </span>-->
-<!--						</a>-->
-<!--						&lt;!&ndash;</v-card>&ndash;&gt;-->
-
-<!--						<a class=navMenu>-->
-<!--                    <span text text-align="left" color="black" height="26px" width="108">빌라, 투룸+<br>-->
-<!--                    <span-small text-align="left">신축분양/매매/전월세</span-small></span>-->
-<!--						</a>-->
-<!--						<a class=navMenu>-->
-<!--                    <span text text-align="left" color="black" height="26px" width="33px">원룸<br>-->
-<!--                    <span-small text-align="left">전월세</span-small></span>-->
-<!--						</a>-->
-<!--						<a class=navMenu>-->
-<!--                    <span text text-align="left" color="black" height="26px" width="115px">오피스텔<br>-->
-<!--                    <span-small text-align="left">도시형생활주택/전월세</span-small></span>-->
-<!--						</a>-->
-<!--					</ul>-->
-
-<!--					<v-spacer></v-spacer>-->
-
-<!--					<v-toolbar-items class="hidden-sm-and-down">-->
-
-<!--						<v-btn text>-->
-<!--							로그인 및 회원가입-->
-<!--						</v-btn>-->
-
-
-
-<!--						<v-btn text float="left" color="indigo" 	font-size= "16px"  font-weight= "400" >-->
-<!--							중개사무소 가입-->
-<!--						</v-btn>-->
-<!--					</v-toolbar-items>-->
-<!--				</v-toolbar>-->
-<!--			</v-banner>-->
-<!--		</header>-->
-<!--	</div>-->
 </template>
 
 <script>
@@ -109,7 +73,10 @@
 		text-decoration: none;
 	}
 
-
+	.right-header {
+		width: 300px;
+		margin-right: 0px;
+	}
 
 	header {
 		max-height:100px;
