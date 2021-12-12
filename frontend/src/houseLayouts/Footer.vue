@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<footer align="center">
+		<footer align="center"><br/>
 			<v-card flat tile class="white white--text text-center">
 				<v-card-text class="black--text pt-0">
 					회사소개 | 채용정보 | 이용약관 | 개인정보 처리방침 | 위치기반 서비스 이용약관 | 중개사 사이트 바로가기
@@ -8,9 +8,9 @@
 
 				<v-card-text text-align="center" class="black--text pt-0">
 					상호 : 내방  |  대표 : 1조  |  사업자등록번호: 111-11-11111<br>
-					주소 : 서울특별시 서초구 서초대로 411, 5층(서초동, GT타워) (우 : 00000)<br>
-					팩스 : 02-123-4567  | 통신판매업 신고번호 : 0000-서울서초-0000<br>
-					서비스 이용문의 : 5959-2222  |  이메일 : 1111111  |  서비스제휴문의 : partnership@zigbang.com
+					주소 : 서울특별시 강남구 테헤란로 000, 9층(강남구, XX타워) (우 : 00000)<br>
+					팩스 : 02-123-4567  | 통신판매업 신고번호 : 0000-0000-0000<br>
+					서비스 이용문의 : 0000-0000  |  이메일 : 1111111  |  서비스제휴문의 : partnership@MyBang.com
 				</v-card-text>
 
 				<v-card-text>

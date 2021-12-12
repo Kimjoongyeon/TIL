@@ -73,8 +73,8 @@
 </template>
 
 <script>
-import Header from '../layouts/Header'
-import Footer from '../layouts/Footer'
+import Header from '@/houseLayouts/Header'
+import Footer from '@/houseLayouts/Footer'
 
 export default {
     components: { Header, Footer },
@@ -82,7 +82,7 @@ export default {
     data() {
       return {
         item: [
-           require('@/assets/img/Interior.jpg'),
+           require('@/assets/houseImg/Interior.jpg'),
         ],
       }
     },
