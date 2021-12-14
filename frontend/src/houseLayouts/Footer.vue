@@ -91,23 +91,6 @@
     computed: {
     },
     methods: {
-      /*
-					logout () {
-							this.$cookies.remove("user")
-							this.isLogin = false
-							this.$store.state.session = null
-							alert('로그아웃 처리되었습니다 ')
-							this.$router.go();
-					},
-					fundingUpload() {
-							this.isLogin = true
-					},
-					fundingUploadFail() {
-							this.isLogin = false
-							alert('로그인이 필요합니다')
-							this.$router.push("login")
-					}
-					*/
     },
     watch: {
       /*
