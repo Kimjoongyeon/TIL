@@ -48,7 +48,6 @@
 						<v-btn @click="gotoMypage" text>마이페이지</v-btn>|
 						<v-btn @click="logout" text>로그아웃</v-btn>
 					</div>
-					<!--<v-btn text><a href="registerInfo">중개사무소<br>가입안내</a></v-btn>-->
 				</div>
 				<div style="float:left" v-else>
 					<v-btn @click="gotoJoin" text>회원가입</v-btn>|
