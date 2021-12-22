@@ -1,17 +1,10 @@
 <template>
   <div class="home">
-    <div id="header">
-      <router-link :to="{ name: 'Home' }"
-              class="nav-link"
-              active-class="active">
-          Home
-      </router-link>
-      <router-link :to="{ name: 'MainPage' }"
-              class="nav-link"
-              active-class="active">
-          Test
-      </router-link>
-    </div>
+    <router-link :to="{ name: 'MainPage' }"
+            class="nav-link"
+            active-class="active">
+        (부동산 페이지 연습)
+    </router-link>
   </div>
 </template>
 
