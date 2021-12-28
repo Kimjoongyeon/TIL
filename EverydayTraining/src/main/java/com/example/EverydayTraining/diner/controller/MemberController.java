@@ -1,6 +1,7 @@
 package com.example.EverydayTraining.diner.controller;
 
 import com.example.EverydayTraining.diner.DTO.MemberRequest;
+import com.example.EverydayTraining.diner.controller.session.UserInfo;
 import com.example.EverydayTraining.diner.service.MemberService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,7 +25,7 @@ public class MemberController {
     @Autowired
     private MemberService service;
 
-    //private UserInfo info;
+    private UserInfo info;
 
     private HttpSession session;
 
