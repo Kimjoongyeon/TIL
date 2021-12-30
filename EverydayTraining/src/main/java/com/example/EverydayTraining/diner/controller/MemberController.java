@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -48,6 +49,34 @@ public class MemberController {
             log.info(memberRequest.getUserId());
             return false;
         }
+    }
+
+    @PostMapping("/login")
+    public ResponseEntity<UserInfo> jpaLogin(
+            @RequestBody MemberRequest memberRequest,
+            HttpServletRequest request
+    ) throws Exception {
+
+        log.info("jpaLogin() - userId: " + memberRequest.getUserId() + ", password: " + memberRequest.getPassword());
+
+        MemberRequest memberResponse = service.login(memberRequest);
+
+        if (!memberResponse.equals(null)) {
+            log.info("Login Success");
+            // 세션 할당
+            info = new UserInfo();
+            info.setUserId(memberResponse.getUserId());
+            info.setAuth(memberResponse.getAuth());
+            log.info("Session Info: " + info);
+
+            session = request.getSession();
+            session.setAttribute("member", info);
+        } else {
+            log.info("Login Failure");
+            info = null;
+        }
+
+        return new ResponseEntity<UserInfo>(info, HttpStatus.OK);
 
     }
 }
